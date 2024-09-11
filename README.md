@@ -8,35 +8,23 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone <URL репозитория>
+    git clone https://github.com/Miva-Sun/ApiGit
     ```
 
 2. Перейдите в директорию проекта:
 
     ```bash
-    cd github_api_test
+    cd ApiGit
     ```
 
-3. Создайте виртуальное окружение (опционально):
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # для Windows используйте venv\Scripts\activate
-    ```
-
-4. Установите зависимости:
+3. Установите зависимости:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Создайте файл `.env` в корне проекта и добавьте туда ваши данные:
+4. Заполните файл `.env` в корне проекта, добавиви туда ваши данные:
 
-    ```plaintext
-    GITHUB_TOKEN=your_github_token
-    GITHUB_USERNAME=your_github_username
-    REPO_NAME=test_repo
-    ```
 
 ## Запуск теста
 
